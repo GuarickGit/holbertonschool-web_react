@@ -5,7 +5,7 @@ interface Teacher {
 	yearsOfExperience?: number, // ? signifie Optional
 	location: string
 
-	[attribute: string]: any;
+	[attribute: string]: any; // Possibilité de rajouté des attributs, tant que la clé est une string, et ils peuvent être de n'importe quel types.
 }
 
 const teacher3: Teacher = {
